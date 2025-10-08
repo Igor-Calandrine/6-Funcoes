@@ -64,7 +64,12 @@ Importando todas as funções de um módulo
 
         from nome_do_módulo import *
     
-Estilizando funções"""
+Estilizando funções
+    Como já vimos, é importante se atentar a alguns detalhes sobre os nomes descritivos das funções, esse nomes também devem ser escritos com letra minúsculas e underscores. Nomes descritivos ajudam você e outras pessoas a entederem o que seu código está tentando fazer. Os nomes de módulos devem usar essas conveções também.
+    Toda função deve ter um comentário que explique o que eka faz de nidi conciso. Esse comentário deve estar imediatamente após a definição da função e deve utilizar o formato de docstring. Os programadores poderão usá-las em seus programas e funcionará conforme descrito.
+    Se você especificar um valor default ou um argumento nomeado para um parâmetro, não deve haver espaços em nenhum dos lados do sinal de igualdade.
+    Se seu programa ou módulo tiver mais de uma função, vvocê poderá separá-las usando duas linhas em branco para facilitar ver em que ligar uma função termina e a próxima começa.
+    Todas as instruções #import devem estar no início de um arquivo. A única exceção ocorre quando você usa comentários no início de eu arquivo para descrever o programa como um todo."""
 
 
     
