@@ -7,6 +7,7 @@ Definindo uma função
     Quando quiser usar essa função, você deve chamá-la em #x. Escreva o nome dela, seguido de qualquer informação necessária entre  parênteses, como nenhuma informação é necessária nesse caso, chamar nossa função é simples."""
 
 print("Exemplo 1")
+
 def saudacao(): #u
     print("Hellow Word") #w
 
@@ -17,6 +18,7 @@ Argumento ou parâmetros
     Um argumento é uma informação passada para uma função em sua chamada. Quando chamamos a função, colocamos entre parênteses o valor com que queremos que a função trabalhe. Nesse caso, o argumento 'igor' foi passado para a função e o valor foi armazenado no parâmetro username."""
 
 print("\nExemplo 2")
+
 def saudacao (usuario):
     print(f"Hellow Word, {usuario}")
 

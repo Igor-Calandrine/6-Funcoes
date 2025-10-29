@@ -2,9 +2,10 @@
 Passando um número arbitrário de argumentos
     Às vezes você não saberá com antedecedência quantos argumentos uma função deve aceitar. Felizmente, Python permite que uma função receba um número arbitrário de argumentos da instrução de chamada.
     No exemplo abaixo o *(asteriscos) no nome do parâmetro diz para criar uma tupla vazia chamada acréscimos e reunir os valores recebidos nessa tupla.
-    Como um tupla foi criado, podemos realizar uma chamada para que cada acréscimo a essa pizza seja impressa com um laço for. Essa sintaxe irá funcionar não importante quantos argumentos a função receba."""
+    Como um TUPLA foi criado, podemos realizar uma chamada para que cada acréscimo a essa pizza seja impressa com um laço for. Essa sintaxe irá funcionar não importante quantos argumentos a função receba."""
 
 print("Exemplo 1")
+
 def pizza(*acréscimos):
     print(f"Tulpa - {acréscimos}")
 
@@ -32,8 +33,8 @@ pizza_pedida("grande", "queijo", "pepperoni", "frango")
 
 """
 Usando argumentso nomeados arbitrários
-    Às vezes você vai querer aceitar um número arbitrário de argumentos, mas não saberá com antecedência qual tipo de informação será passado para a função. Nesse caso podemos escrever funções quea ceitem tantos pares chave-valor quantos forem fornecidos pela instrução que faz a chamada. 
-    Os ** (asteriscos duplos) antes do parâmetro fazem Python criar um par chave-valor que irão se comportar como itens de um dicionário, assim iremos criar esse par em um e acessá-los como faríamos em qualquer dicionário.
+    Às vezes você vai querer aceitar um número arbitrário de argumentos, mas não saberá com antecedência qual tipo de informação será passado para a função. Nesse caso podemos escrever funções que aceitem tantos pares chave-valor quantos forem fornecidos pela instrução que faz a chamada. 
+    Os ** (asteriscos duplos) antes do parâmetro fazem Python criar um par chave-valor que irão se comportar como itens de um DICIONÁRIO, assim iremos criar esse par em um e acessá-los como faríamos em qualquer dicionário.
     No próximo exemplo temos uma função que cria um dicionário para construir o perfil de um usuário que sempre aceita um primeiro nome e sobrenome, mas aceita também um número arbitrário de argumentos nomeados."""
 
 print("\nExemplo 3")

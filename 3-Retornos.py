@@ -4,6 +4,7 @@ Retornos
     Quando  chamamos uma função que devolve um valor, precisamos fornecer uma variável em que o valor de retorno possa ser armazenado. Nesse caso, o valor devolvido é armazenado na variável musician. A saída mostra um nome formatado de modo elegante, composto das partes do nome de uma pessoa"""
 
 print("Exemplo 1")
+
 def get_formatted_name(first_name, last_name):
     full_name = first_name + ' ' + last_name
     return full_name.title()
@@ -22,8 +23,11 @@ def definicao_pessoa(nome, genero, idade=""):
         pessoa["idade"] = idade 
     return pessoa
 
-musico = definicao_pessoa("igor", "masculino")
-print(musico)
+musico_1 = definicao_pessoa("igor", "masculino")
+musico_2 = definicao_pessoa("bianca", "feminino", 16)
+
+print(musico_1)
+print(musico_2)
 
 
 
